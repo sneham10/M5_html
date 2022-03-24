@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<style>
+header,footer{
+font style="italic";
+color:#708090;
+background-color:blue;
+opacity: 0.6;
+text-align: center;
+border-style: solid;
+border-color:black;
+border-width: 5px ;
+margin :40px 100px 40px 100px;
+}
+
+table{
+text-align:left;
+ padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 400px;
+}
+.dv{
+border:5px outset black;
+background-color:lightblue;
+text-align:center;
+margin :40px 100px 40px 100px;
+
+}
+</style>
+
+
+<header><h2>Player details</h2></header>
+
+
+<body>
+<div class="dv">
+<form>
+<table>
+<tr>
+<th></th>
+<th></th>
+</tr>
+<tr>
+<td>Name<span style="color:#FF0000">*</span></td>
+<td><input type="name" id="name" required placeholder="Enter your name"><br></td>
+</tr>
+<tr>
+<td>DOB<span style="color:#FF0000">*</span></td>
+<td><input type="date" id="dob" required placeholder="DD/MM/YYYY"><br></td>
+</tr>
+<tr>
+<td>Age<span style="color:#FF0000">*</span></td>
+<td><input type="number" id="age" required placeholder="Enter your age"><br></td>
+</tr>
+<tr>
+<td>Email<span style="color:#FF0000">*</span></td>
+<td><input type="email" id="email" required placeholder="abc12@xyz.com"><br></td>
+</tr>
+<tr>
+<td>Country<span style="color:#FF0000">*</span></td>
+<td><select  id="country" required >
+  <option value="india">india</option>
+  <option value="america">america</option>
+  <option value="uk">uk</option>
+  <option value="dubai">dubai</option>
+</select><br></td>
+</tr>
+<tr>
+<td>Skill<span style="color:#FF0000">*</span></td>
+<td><input type="checkbox" id="skill" value="batting">Batting
+<input type="checkbox" id="skill" value="bowling">Bowling<br></td>
+</tr>
+<tr>
+<td>Bat Style</td>
+<td> <input type="radio" id="bat" value="right">Right Handed
+ <input type="radio" id="bat" value="left">Left Handed<br></td>
+</tr>
+<tr>
+<td>Bowl Style</td>
+<td> <input type="radio" id="bowl" value="right">Right Handed
+ <input type="radio" id="bowl" value="left">Left Handed<br></td>
+</tr>
+<tr>
+<td>Matches<span style="color:#FF0000">*</span></td>
+<td><input type="name" id="match" required placeholder="Matches played"><br></td>
+</tr>
+<tr>
+<td>Runs<span style="color:#FF0000">*</span></td>
+<td><input type="name" id="runs" required placeholder="Total runs scored"><br></td>
+</tr>
+<tr>
+<td>Wickets<span style="color:#FF0000">*</span></td>
+<td><input type="name" id="wicket" required placeholder="wicket"><br></td>
+</tr>
+<tr>
+<td>Achievements</td>
+<td><textarea type="name" id="achieve" required placeholder="Your achivements"></textarea><br></td>
+</table>
+</form>
+</div>
+</body>
+<footer>
+<button type="submit" value="Submit">submit
+<button type="reset" value="reset">reset
+</footer>
+</html>
